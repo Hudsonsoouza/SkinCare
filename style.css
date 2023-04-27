@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: url("assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90vw;
+  height: 92vh;
+  background-position: center center;
+  background-color: #253415;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.conteudo {
+  padding: 100px;
+  margin-top: 20px;
+}
+
+.conteudo-main h1 {
+  font-style: bold;
+  font-weight: 800;
+  text-align: center;
+  color: #21572c;
+  font-size: 35px;
+}
+
+.conteudo-main p {
+  font-style: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.conteudo-main h1 span {
+  color: #68a475;
+}
+
+.conteudo-main img {
+  max-width: 300px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.video {
+  width: 100%;
+}
+
+.iframe {
+  width: 100%;
+  min-width: 600px;
+  min-height: 350px;
+  margin-bottom: 15px;
+}
+
+.section-btn {
+  margin-top: 10px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.section-btn a {
+  padding: 20px 30px;
+  background-color: #68a475;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 5px;
+  display: none;
+}
+
+.section-btn a:hover {
+  background-color: #3c4b2e;
+  color: white;
+  transition: 150ms;
+}
+
+@media (max-width: 1000px) {
+  body {
+    margin-top: 150px;
+    display: block;
+    padding: 0;
+  }
+
+  .conteudo-main h1 {
+    font-style: bold;
+    font-weight: 800;
+    text-align: center;
+    color: #21572c;
+    font-size: 25px;
+  }
+
+  .section-btn a {
+    padding: 20px 30px;
+    background-color: #3c4b2e;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: px;
+  }
+  .conteudo-main img {
+    max-width: 300px;
+    display: flex;
+    margin: 0 auto;
+  }
+  .iframe {
+    width: 100%;
+    min-width: 400px;
+    min-height: 200px;
+  }
+
+  .section-btn a {
+    padding: 15px 15px;
+    background-color: #3c4b2e;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 15px;
+  }
+}
